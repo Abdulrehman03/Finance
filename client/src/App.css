@@ -1,0 +1,30 @@
+.container{
+   text-align: center;
+   margin: auto;
+   /* margin-left: 10%; */
+}
+
+.heading{
+   padding-top: 10%;
+}
+@media print{
+   #mainButtons{
+      display: none;
+   }
+   .nav{
+      display:none
+   }
+}
+
+.date{
+   width: 170px;
+   position: absolute;
+   right: 2%;
+
+}
+.sign{
+   position: absolute;
+   right: 6%;
+   top: 47%;
+   
+}
